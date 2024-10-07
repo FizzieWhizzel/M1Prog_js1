@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    
+    
+</body>
+<script>
+    function printAlphabet(){
+        console.log("T");
+        console.log("U");
+        console.log("R");
+        console.log("T");
+        console.log("L");
+        console.log("E");
+    
+    }
+
+    function add(number1, number2){
+    let sum = number1 + number2;
+    console.log(sum);
+    }
+
+    function multiply(mNumber1, mNumber2){
+
+        let product = mNumber1 * mNumber2;
+        console.log(product);
+    }
+
+    function rollDice(){
+        let random = Math.random();
+        let number = random * 6;
+        number = Math.ceil(number);
+         return number;
+    }
+
+    let dice1 = rollDice();
+    console.log(dice1);
+</script>
+</html>

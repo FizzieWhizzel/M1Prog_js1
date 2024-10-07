@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    hi
+</body>
+<script>
+    function calcAge(birthYear,birthMonth,birthDay){
+        let now = new Date();
+        let birth = new Date(birthYear,8,13);
+        let miliseconds = now - birth;
+        let years = miliseconds / 1000 / 60 / 60 / 24 / 365;
+        return years;
+        
+    }
+
+    let myAge = calcAge(2005,8,13);
+    console.log(myAge);
+</script>
+</html>
