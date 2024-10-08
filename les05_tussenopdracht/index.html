@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <button id="buttonid">
+        CLICK ME
+    </button>
+    <p id="textid">
+        Livella, Nymare tos bläcas dragan
+    </p>
+</body>
+
+<script>
+    let myText = document.getElementById("textid");
+    let myButton = document.getElementById("buttonid");
+
+    myButton.onclick = changeText;
+
+    function changeText(){
+        myText.style.border = "3px solid black";
+    }
+
+    
+</script>
+</html>
